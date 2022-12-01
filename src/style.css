@@ -1,0 +1,124 @@
+body {
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+h1 {
+  font-size: 56px;
+  padding: 15px;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+h3 {
+  font-size: 28px;
+  color: white;
+}
+p {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 30px auto;
+}
+#city-name {
+  font-size: 56px;
+  padding: 15px;
+  color: white;
+}
+#city-search-bar {
+  width: 350px;
+  display: block;
+  margin-top: 15px;
+  background: rgba(31, 25, 29, 0.479);
+  border-radius: 50px;
+}
+#city-search-bar button {
+  width: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: rgba(238, 11, 200, 0.737);
+  font-size: 25px;
+}
+#city-search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 30px 8px 5px;
+  font-size: 25px;
+  color: white;
+}
+#current-city {
+  color: white;
+  background-color: #f14ebd;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 5px 10px 10px 10px;
+  border: 0.05em solid rgba(255, 255, 255, 0);
+  width: 250px;
+  height: 50px;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  transition: all 0.2s;
+}
+#current-city:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.current-weather {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/887/original/javier-miranda-FRLlWkX1f7w-unsplash.jpg?1669038188);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 26px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 800px;
+  height: 900px;
+}
+.weather-description {
+  color: beige;
+}
+.icon-weather:hover {
+  transform: scale(1.2);
+}
+.temp {
+  font-size: 22px;
+}
+.icon-forecast {
+  text-align: center;
+}
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 100;
+  color: whitesmoke;
+}
+.footer-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navbar fixed-bottom {
+  margin-bottom: 0;
+  text-align: center;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: none;
+}

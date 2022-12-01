@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script
+		src="https://kit.fontawesome.com/e25bab247d.js"
+		crossorigin="anonymous"
+	></script>
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous"
+	/>
+	<title>Watercolor Weather</title>
+	<meta charset="UTF-8" />
+	<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+	<link rel="stylesheet"  type="text/css" href="src/style.css" />
+</head>
+<body>
+	<div class="container"></div>
+	<div class="current-weather container">
+	<div class="row">
+				<div class="col">
+		<form id="city-search-bar">
+			<input
+				type="search"
+				placeholder="Search city"
+				autocomplete="off"
+				id="city-input"
+			/>
+			<button type="submit">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</button>
+		</form>
+				</div>
+		<div class="col">
+			<button id="current-city"><img src="https://img.icons8.com/small/32/null/center-direction.png">Current Location</a>
+			</button>
+			</div>
+	</div>
+			<h1 id="city-name">Barcelona</h1>
+			<h3 id="current-date-time">Date and Time</h3>
+			<img class="icon-weather" src="https://img.icons8.com/color/96/40C057/smiling-sun.png" />
+			<h2 id="temp">21º</h2>
+			<span id="units">
+				<a href="#" id="celsius-link">C</a> |
+				<a href="#" id="fahrenheit-link">F</a>
+			</span>
+			<div
+			class="weather-description"
+			id="weather-description"
+		>Sunny
+			</div>
+			<div class="row align-items-center">
+				<div class="col"></div>
+					<div class="w-100"></div>
+				<div class="col icon-weather"><img src="https://img.icons8.com/glyph-neue/64/000000/wind.png"/></div>
+				<div class="col icon-weather"><img src="https://img.icons8.com/color/96/000000/humidity.png"/></div>
+				<div class="col icon-weather"><img src="https://img.icons8.com/sf-regular/64/000000/temperature.png"/></div>
+				<div class="w-100"></div>
+				<div class="col" >Wind</div>
+				<div class="col">Humidity</div>
+				<div class="col">Feels like</div>
+				<div class="w-100"></div>
+				<div class="col" id="wind">5km/h</div>
+				<div class="col" id="humidity">60%</div>
+				<div class="col" id="feels_like">23º</div>
+			</div>
+		<br>
+			<h3>5 day forecast</h3>
+			<div class="row align-items-center">
+				<p>
+				<div class="col icon-weather">
+					<img
+						src="https://img.icons8.com/color/48/40C057/partly-cloudy-day--v1.png"
+					/>
+				</div>
+				<div class="col icon-weather">
+					<img src="https://img.icons8.com/color/48/40C057/smiling-sun.png" />
+				</div>
+				<div class="col icon-weather">
+					<img
+						src="https://img.icons8.com/color/48/40C057/partly-cloudy-day--v1.png"
+					/>
+				</div>
+				<div class="col icon-weather">
+					<img src="https://img.icons8.com/color/48/40C057/smiling-sun.png" />
+				</div>
+				<div class="col icon-weather">
+					<img
+						src="https://img.icons8.com/color/48/40C057/light-rain--v1.png"
+					/>
+				</div>
+				<div class="w-100"></div>
+				<div class="col">Mon</div>
+				<div class="col">Tue</div>
+				<div class="col">Wed</div>
+				<div class="col">Thu</div>
+				<div class="col">Fri</div>
+				<div class="w-100"></div>
+				<div class="col temp">22º/14º</div>
+				<div class="col temp">20º/13º</div>
+				<div class="col temp">21º/14º</div>
+				<div class="col temp">22º/12º</div>
+				<div class="col temp">19º/11º</div>
+				</p>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-info text-center text-lg-start fixed-bottom">
+		Icons by
+		<a target="_blank" href="https://icons8.com"
+			><img class="footer-icon"
+				src="https://img.icons8.com/color-glass/40/000000/icons8-logo.png"
+		/></a>
+		Open sourced on <a target="_blank" href=""><img class="footer-icon" src="https://img.icons8.com/windows/32/null/github.png"/></a> by Elizabeth Torralbo
+		<a target="_blank" href="https://www.linkedin.com/in/elizabethtorralbo/"
+			><img class="footer-icon"
+				src="https://img.icons8.com/color/40/000000/linkedin-circled--v1.png"
+		/></a>
+	</footer>
+   <script src="src/script.js"></script>
+</body>
+
+</html>
